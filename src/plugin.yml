@@ -1,0 +1,20 @@
+name: FEMC
+version: 1.0
+author: Finn Eggers
+main: luecx.FEMC
+api-version: 1.17
+commands:
+  selector:
+    description: Give you important tools
+  createvolume:
+    description: Creates a volume with the 2 given positions
+    usage: \<command> <name>
+  deletevolume:
+    description: deletes a value
+    usage: \<command> <name>
+  scale:
+    description: scales displacements
+    usage: \<command> <name> <factor>
+  compute:
+    description: starts computation for a volume
+    usage: \<command> <name>
